@@ -12,16 +12,20 @@ Minecraft Paper Server plugin implements simple common server commands and game 
 ## Server Commands:
 home:
     description: Teleports you back to your bed.
+    
     usage: /home
 
 to:
     description: Sends a teleport request to player
+    
     usage: /to <player_name>
 
 okay:
     description: Acceept teleport request to player
+    
     usage: /okay
 
 nope:
     description: Deny teleport request
+    
     usage: /nope
